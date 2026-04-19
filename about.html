@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francina</title>
+
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/cv.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="frame"></div>
+<div class="grid-overlay"></div>
+
+
+<header class="navbar">
+  <nav class="side-nav">
+    <div class="menu">
+      <a href="../about.html" class="active" data-i18n="nav_about">about</a>
+      <a href="./index.html" data-i18n="nav_work">my work</a>
+      <a href="../contact.html" data-i18n="nav_contact">contact!</a>
+    </div>
+
+    <div class="top-controls">
+      <div class="language-selector-text">
+        <span class="lang-option active" data-lang="en">english</span>
+        <span class="lang-option" data-lang="es">español</span>
+      </div>
+    </div>
+    </div>
+
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hola">
+  <div class="hola-inner">
+
+    <p data-i18n="hero_1">
+      Hello! I'm Francina Rattero, a designer based in Buenos Aires, Argentina. I see design as the creation of meaningful experiences. I’m particularly drawn to bold identities and enjoy exploring diverse forms of communication through thoughtful visual systems.
+    </p>
+
+    <p data-i18n="hero_2">
+      I’m open to new projects and collaborations. If you think we could create something compelling together, feel free to reach out!
+    </p>
+
+  </div>
+</section>
+
+<main class="container">
+
+  <!-- Educación -->
+  <div class="section">
+    <div class="section-title" data-i18n="education">Educación</div>
+    <div class="section-content">
+  
+      <p class="strong">Universidad Torcuato Di Tella</p>
+      <p>2022 – 2025</p>
+      <p data-i18n="degree">Licenciatura en Diseño</p>
+      <p data-i18n="minor">Orientación Minor en Innovación Estratégica</p>
+  
+      <br>
+  
+      <p class="strong">Colegio San José Adoratrices</p>
+      <p>2015 – 2021</p>
+      <p data-i18n="high_school">Título Secundario</p>
+  
+    </div>
+  </div>
+  
+  
+  <!-- Idiomas -->
+  <div class="section">
+    <div class="section-title" data-i18n="languages">Idiomas</div>
+    <div class="section-content">
+      <p data-i18n="lang_spanish">Español — Nativo</p>
+      <p data-i18n="lang_english">Inglés — Avanzado (C1)</p>
+    </div>
+  </div>
+  
+  
+  <!-- Cursos -->
+  <div class="section">
+    <div class="section-title" data-i18n="courses">Cursos</div>
+    <div class="section-content">
+      <p data-i18n="course_1">Crafting in the Metaverse — University of Toronto — 2025</p>
+      <p data-i18n="course_2">Curso de Cine — Centro Cultural Recoleta — 2025</p>
+    </div>
+  </div>
+  
+  
+  <!-- Softwares -->
+  <div class="section">
+    <div class="section-title" data-i18n="software">Softwares</div>
+    <div class="section-content">
+      <p>Figma</p>
+      <p>Adobe After Effects</p>
+      <p>Adobe Photoshop</p>
+      <p>Adobe Illustrator</p>
+      <p>Blender</p>
+      <p>Rhino</p>
+      <p>HTML / CSS básico</p>
+      <p>Reaper</p>
+      <p>Resolume Arena</p>
+    </div>
+  </div>
+  
+  
+  <!-- Skills -->
+  <div class="section">
+    <div class="section-title" data-i18n="experience">Skills</div>
+    <div class="section-content">
+      <p data-i18n="exp_1">Desarrollo conceptual e identidades visuales.</p>
+      <p data-i18n="exp_2">Motion graphics y piezas audiovisuales</p>
+      <p data-i18n="exp_3">Diseño de interfaces web (UI) y prototipado interactivo</p>
+      <p data-i18n="exp_4">Modelado y visualización 3D</p>
+      <p data-i18n="exp_5">Experiencias inmersivas</p>
+      <p data-i18n="exp_6">Objetos</p>
+    </div>
+  </div>
+  
+  
+
+  
+  
+  <!-- Adicional -->
+  <div class="section">
+    <div class="section-title" data-i18n="additional">Adicional</div>
+    <div class="section-content">
+      <p data-i18n="add_1">Exhibición colectiva “From the Chair to Infinity” — Museo Moderno — 2025</p>
+      <p data-i18n="add_2">Referente de ingresantes — Universidad Torcuato Di Tella — 2025</p>
+      <p data-i18n="add_3">Exhibición colectiva universitaria “Diseño en construcción” — Universidad Torcuato Di Tella — 2024 / 2025</p>
+      <p data-i18n="add_4">Exhibición colectiva universitaria “Diseño en construcción” — Universidad Torcuato Di Tella — 2024 / 2025</p>
+    </div>
+  </div>
+  
+  </main>
+  
+
+
+  
+  </main>
+
+<script src="../js/proyecto.js"></script>
+<script src="../js/traduccion.js"></script>
+
+<script>
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "g") {
+      document.body.classList.toggle("no-grid");
+    }
+  });
+</script>
+
+</body>
+</html>

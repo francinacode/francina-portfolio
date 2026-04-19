@@ -1,0 +1,121 @@
+/* =========================
+   HERO SECTION
+========================= */
+
+.hola {
+  max-width: 1400px;
+  margin-left: 70px;
+  margin-top: 180px;
+  line-height: 1.2;
+  font-size: 50px;
+}
+
+.hola p {
+  margin-bottom: 1.5rem;
+}
+
+
+/* =========================
+   RESET TIPOGRÁFICO
+========================= */
+
+/* =========================
+   BASE TIPOGRÁFICA
+========================= */
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;      /* 👈 antes era 14px */
+  line-height: 0.7;     /* 👈 interlineado más compacto */
+}
+
+
+/* =========================
+   CONTENEDOR
+========================= */
+
+.container {
+  margin-top: 90px;
+  margin-left: 70px; /* mismo punto que el hero */
+  max-width: 1050px;
+
+}
+
+
+
+
+/* =========================
+   SECCIONES
+========================= */
+
+.section {
+  display: grid;
+  grid-template-columns: 300px 1fr; /* reducimos columna izquierda */
+  column-gap: 60px;
+  margin-bottom: 50px;  
+}
+
+.section-title {
+  color: #a0a0a0;
+  letter-spacing: 0.5px;
+  text-transform:uppercase;
+}
+
+.section-content p {
+  margin-bottom: 6px;
+}
+
+.strong {
+  margin-top: -1px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* =========================
+   📱 MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+  body {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  .hola {
+    margin-left: 0;
+    margin-top: 150px;
+    padding: 0 24px;
+    max-width: 100%;
+    font-size: 12px;
+    
+    
+  }
+
+  .container {
+    margin-left: 0;
+    margin-top: 100px;
+    padding: 0 50px;
+    max-width: 110%;
+    
+  }
+
+  .section {
+    grid-template-columns: 140px 1fr; 
+    column-gap: 0;
+    row-gap: 10px;
+    margin-bottom: 40px;
+    
+  }
+
+  .section-title {
+    margin-bottom: 8px;
+    margin-left: -20px;
+
+
+
+  }
+}
+
+
+

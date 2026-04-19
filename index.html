@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francina</title>
+
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/cv.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="frame"></div>
+<div class="grid-overlay"></div>
+
+<div id="fixedText"></div>
+<!-- NAV -->
+<header class="navbar">
+  <nav class="side-nav">
+    <div class="menu">
+      <a href="../about.html" data-i18n="nav_about">about</a>
+      <a href="../index.html" class="active" data-i18n="nav_work">my work</a>
+      <a href="../contact.html" data-i18n="nav_contact">contact!</a>
+    </div>
+
+    <div class="top-controls">
+      <div class="language-selector-text">
+        <span class="lang-option active" data-lang="en">english</span>
+        <span class="lang-option" data-lang="es">español</span>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- PROJECTS -->
+<section class="projects-container">
+
+
+  <!-- PROYECTO 1 -->
+  <a href="about/projects/proyecto3.html" class="project-link">
+    <div class="project">
+      <video class="video-hover" src="about/img/portada3.mp4" muted loop playsinline></video>
+      <div class="project-text">
+        <p class="project-title" data-i18n="project1_title">+54</p>
+        <p class="project-meta" data-i18n="project1_meta_1">Brand Identity, Social Media,</p>
+        <p class="project-meta" data-i18n="project1_meta_2">Exhibition Concept, Spatial Design.</p>
+
+      </div>
+    </div>
+  </a>
+
+  <!-- PROYECTO 2 -->
+  <a href="about/projects/proyecto2.html" class="project-link">
+    <div class="project">
+      <video class="video-hover" src="about/img/portada2A.mp4" muted loop playsinline ></video>
+      <div class="project-text">
+        <p class="project-title" data-i18n="project2_title">[ SAPROBIO ]</p>
+        <p class="project-meta" data-i18n="project2_meta_1">Immersive experience, Animation,</p>
+        <p class="project-meta" data-i18n="project2_meta_2">Visuals.</p>
+
+      </div>
+    </div>
+  </a>
+
+  <!-- PROYECTO 3 -->
+  <a href="about/projects/proyecto1.html" class="project-link">
+    <div class="project">
+      <video class="video-hover" src="about/img/portada1.mp4"muted loop playsinline preload="none"></video>
+      <div class="project-text">
+        <p class="project-title" data-i18n="project3_title"> [ Cero al infinito ]</p>
+        <p class="project-meta" data-i18n="project3_meta_1">Brand Identity, Social Media,</p>
+        <p class="project-meta" data-i18n="project3_meta_2">Exhibition Concept, Spatial Design.</p>
+  
+      </div>
+    </div>
+  </a>
+
+  <!-- PROYECTO 4 -->
+  <a href="about/projects/proyecto4.html" class="project-link">
+    <div class="project">
+      <video class="video-hover" src="about/img/portada4.mp4" muted loop playsinline preload="none"></video>
+      <div class="project-text">
+        <p class="project-title" data-i18n="project4_title">Mut4ante mentiroso</p>
+        <p class="project-meta" data-i18n="project4_meta_1">Editorial Design, Visual Narrative.</p>
+
+      </div>
+    </div>
+  </a>
+
+  <!-- PROYECTO 5 -->
+  <a href="about/projects/proyecto6.html" class="project-link">
+    <div class="project">
+      <video class="video-hover" src="about/img/portada6A.mp4" muted loop playsinline ></video>
+      <div class="project-text">
+        <p class="project-title" data-i18n="project5_title">persecuta</p>
+        <p class="project-meta" data-i18n="project5_meta_1">Live Visuals</p>
+       
+      </div>
+    </div>
+  </a>
+
+  <!-- PROYECTO 6 -->
+  <a href="about/projects/proyecto5.html" class="project-link">
+    <div class="project">
+      <img class="media-hover" src="about/img/portada5.jpg" alt="Silla Encuentro">
+      <div class="project-text">
+        <p class="project-title" data-i18n="project6_title">ENCUENTRO CHAIR</p>
+        <p class="project-meta" data-i18n="project6_meta_1">Furniture Design.</p>
+   
+      </div>
+    </div>
+  </a>
+
+  <!-- PROYECTO 7 -->
+  <a href="about/projects/proyecto7.html" class="project-link">
+    <div class="project">
+      <video class="video-hover" src="about/img/portada7A.mp4" muted loop playsinline preload="none"></video>
+      <div class="project-text">
+        <p class="project-title" data-i18n="project7_title">IA expermientation</p>
+        <p class="project-meta" data-i18n="project7_meta_1">Composition and IA expermientation.</p>
+        <p class="project-meta" data-i18n="project7_meta_2">Composition and IA expermientation.</p>
+ 
+      </div>
+    </div>
+  </a>
+
+  <!-- PROYECTO fantasma -->
+  <a href="about/projects/proyecto7.html" class="project-link">
+    <div class="project">
+      <video class="video-hover" src="img/portada3.mp4" muted loop playsinline preload="none"></video>
+    </div>
+  </a>
+
+</section>
+
+<!-- JS -->
+<script src="../js/main.js"></script>
+<script src="../js/traduccion.js"></script>
+
+<script>
+document.addEventListener("keydown", (e) => {
+  if (e.key === "g") {
+    document.body.classList.toggle("no-grid");
+  }
+});
+</script>
+
+<div class="blur-overlay"></div>
+
+</body>
+</html>
