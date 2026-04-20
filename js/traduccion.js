@@ -238,7 +238,7 @@ p7_brief_text: "Experimentation with digital collage, generative AI, and video p
       
           hero_1: "Hola! soy Francina Rattero, diseñadora en Buenos Aires, Argentina. Concibo el diseño como la construcción de experiencias significativas. Me atraen especialmente las identidades con carácter, y disfruto de experimentar con distintas formas de comunicar.",
       
-          hero_2: "Estoy abierta a nuevos proyectos, si creés que podríamos coolaborar, no dudes en escribirme!",
+          hero_2: "Estoy abierta a nuevos proyectos, si creés que podríamos coolaborar escribime!",
       
           education: "Educación",
           degree: "Licenciatura en Diseño",
