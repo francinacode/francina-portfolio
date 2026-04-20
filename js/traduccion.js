@@ -65,17 +65,20 @@ project1_title: "[+ 54] 2025",
 project1_meta_1: "Brand Identity, Social Media,",
 project1_meta_2: "Exhibition Concept, Spatial Design.",
 project1_date: "date: 2025",
+ver: "READ",     
 
 project2_title: "[ SAPROBIO ] 2024",
 project2_meta_1: "Immersive experience, Animation,",
 project2_meta_2: "Visuals.",
 project2_date: "date: 2024",
 
+          
 project3_title: "[ CERO AL INFINITO ] 2025",
 project3_meta_1: "Brand Identity, Social Media,",
 project3_meta_2: "Exhibition Concept, Spatial Design.",
 project3_date: "date: 2025",
-
+ 
+          
 project4_title: "[ MUT4NTE MENT7IROSO ] 2024",
 project4_meta_1: "Editorial Design, Visual Narrative.",
 project4_date: "date: 2025",
@@ -287,6 +290,7 @@ project1_title: "[ +54 ] 2025",
 project1_meta_1: "Identidad de Marca, Redes Sociales,",
 project1_meta_2: "Concepto Expositivo, Diseño Espacial.",
 project1_date: "fecha: 2025",
+ver: "VER",     
 
 project2_title: "[ SAPROBIO ] 2024",
 project2_meta_1: "Experiencia inmersiva, Animación,",
