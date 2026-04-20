@@ -185,6 +185,14 @@ body {
   
 }
 
+.ver {
+  color: #000;
+  font-weight: 300;
+}
+
+
+
+
 .project:hover img,
 .project:hover video
  {
