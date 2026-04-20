@@ -290,7 +290,7 @@ project1_title: "[ +54 ] 2025",
 project1_meta_1: "Identidad de Marca, Redes Sociales,",
 project1_meta_2: "Concepto Expositivo, Diseño Espacial.",
 project1_date: "fecha: 2025",
-ver: "ABRIR",     
+ver: "VER PROYECTO",     
 
 project2_title: "[ SAPROBIO ] 2024",
 project2_meta_1: "Experiencia inmersiva, Animación,",
