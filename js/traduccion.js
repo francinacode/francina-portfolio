@@ -30,7 +30,7 @@
           
           courses: "Courses",
           course_1: "Crafting in the Metaverse — University of Toronto — 2025",
-          course_2: "Film Course — Centro Cultural Recoleta — 2025",
+          course_2: "Theoretical film workshop — Centro Cultural Recoleta — 2025",
           
           software: "Software",
           
@@ -254,7 +254,7 @@ p7_brief_text: "Experimentation with digital collage, generative AI, and video p
           
           courses: "Cursos",
           course_1: "Crafting in the Metaverse — University of Toronto — 2025",
-          course_2: "Curso de Cine — Centro Cultural Recoleta — 2025",
+          course_2: "Taller teórico de cine — Centro Cultural Recoleta — 2025",
           
           software: "Softwares",
           
